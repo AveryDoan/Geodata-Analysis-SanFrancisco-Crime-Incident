@@ -2,7 +2,7 @@
 
 This repository provides an end-to-end analytical pipeline for exploring, visualizing, and predicting crime patterns in San Francisco using historical data (July - Dec 2012). The project employs advanced geospatial processing, time-series forecasting, and machine learning to uncover insights into urban safety.
 
-## 🚀 Key Features
+## Key Features
 
 - **Modular Data Pipeline**: Automated ingestion and consolidation of disparate crime category shapefiles (Robbery, Vandalism, Car Theft, Drugs).
 - **Advanced Preprocessing**: Robust temporal normalization and feature engineering, resolving critical data quality issues like time-parsing errors.
@@ -12,14 +12,14 @@ This repository provides an end-to-end analytical pipeline for exploring, visual
 - **Geospatial Intelligence**: Layering crime incidents with census block demographics for urban spatial analysis.
 - **Interactive Visualizations**: includes animated heatmaps and district-level distribution plots.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Data Manipulation**: `pandas`, `numpy`
 - **Geospatial Analysis**: `geopandas`, `shapely`, `fiona`
 - **Modeling**: `scikit-learn`, `statsmodels` (ARIMA)
 - **Visualization**: `seaborn`, `matplotlib`, `wordcloud`
 
-## 📁 Project Structure
+## Project Structure
 
 - `Advanced Analytics.ipynb`: The primary analytical notebook, structured as a professional logical report.
 - `SFCrime_July_Dec2012 2/`: Core data directory containing:
@@ -28,7 +28,7 @@ This repository provides an end-to-end analytical pipeline for exploring, visual
 - `cleaned_crime_data.*`: Processed geospatial dataset ready for GIS applications.
 - `sf_crime_animated_heatmap.html`: Interactive temporal visualization of crime density.
 
-## 📊 Analytical Workflow
+## Analytical Workflow
 
 1.  **Environment Configuration**: initializing libraries and global visualization settings.
 2.  **Modular Ingestion**: Consolidation of categorical geospatial data.
@@ -38,7 +38,7 @@ This repository provides an end-to-end analytical pipeline for exploring, visual
 6.  **Spatial Overlay**: Merging crime data with demographic census layers.
 7.  **Systematic Export**: saving refined artifacts for downstream BI consumption.
 
-## 💾 Installation & Usage
+## Installation & Usage
 
 1. Clone the repository:
    ```bash
